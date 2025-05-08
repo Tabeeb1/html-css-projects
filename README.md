@@ -1,1 +1,1 @@
-# html-css-projects
+non responsive sites made with only html-css

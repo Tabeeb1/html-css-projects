@@ -1,0 +1,110 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: beige;
+}
+
+.burger-icon, .location-icon{
+    width: 40px;
+}
+
+header{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bare-work{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 300;
+}
+
+.image, .image3{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.lounge-desc{
+    font-size: 20px;
+}
+
+.section-desc{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.book, .exclusive{
+    padding: 10px 10px;
+    font-size: 15px;
+    border: none;
+    background-color: coral;
+    color: white;
+    font-weight: 900;
+}
+
+.book{
+    cursor: pointer;
+    align-self: center;
+}
+
+.image-container{
+    position: relative;
+}
+
+.exclusive{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image3{
+    width: 750px;
+}
+
+.chatbox{
+    position: fixed;
+    bottom: 26px;
+    right: 36px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img{
+    margin: auto;
+    width:50%;
+    height: 30px;
+}
+
+
+
